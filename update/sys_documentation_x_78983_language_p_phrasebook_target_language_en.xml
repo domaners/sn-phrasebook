@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_documentation element="target_language" label="Target language" language="en" table="x_78983_language_p_phrasebook">
+        <sys_documentation action="INSERT_OR_UPDATE">
+            <element>target_language</element>
+            <help/>
+            <hint/>
+            <label>Target language</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <plural>Target languages</plural>
+            <sys_class_name>sys_documentation</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:09:34</sys_created_on>
+            <sys_id>2320b9a5db923300a9664870399619eb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>Target language</sys_name>
+            <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+            <sys_update_name>sys_documentation_x_78983_language_p_phrasebook_target_language_en</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:09:34</sys_updated_on>
+            <url/>
+            <url_target/>
+        </sys_documentation>
+    </sys_documentation>
+</record_update>

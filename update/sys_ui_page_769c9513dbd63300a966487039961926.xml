@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function getAnswers() {
+	var answers = document.getElementsByClassName("input_answer");
+	var answerArr = [];
+	
+	for (i = 0; i < answers.length; i++) {
+		answerArr.push({
+			id: answers[i].id,
+			value: answers[i].value
+		});
+	}
+	
+	// alert("answerArr: " + JSON.stringify(answerArr));
+	
+	var ga = new GlideAjax("phrasebookAjaxUtils");
+	ga.addParam("sysparm_name", "getTestAnswersUI");
+	ga.addParam("sysparm_json", JSON.stringify(answerArr));
+	ga.getXMLAnswer(displayCorrect);
+	
+}
+
+function displayCorrect(answer) {
+	// alert("answer: " + answer);
+	var json = JSON.parse(answer);
+	
+	for (var i in json) {
+		var tag = "response_" + i;
+		var el = document.getElementById(tag);
+		el.innerHTML = json[i];
+	}
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_78983_language_p_phrase_test.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style>
+	* {
+		font-size: large;
+	}
+	
+	.input_answer {
+		width: 100%;
+		padding-bottom: 6px;
+		padding-left: 9px;
+		padding-right: 9px;
+		padding-top: 6px;
+	}
+	
+	.question_block {
+		background-color: #F0F0F0;
+		padding-bottom: 6px;
+		padding-left: 9px;
+		padding-right: 9px;
+		padding-top: 6px;
+		margin-bottom: 10px;
+	}
+	
+	#submit_button {
+		padding-bottom: 12px;
+		padding-left: 18px;
+		padding-right: 18px;
+		padding-top: 18px;
+		color: white;
+		background-color: #3498DB;
+		width: 150px;
+		border-radius: 5px;
+		text-align: center;
+	}
+</style>
+<g:evaluate var="jvar_test_id" jelly="true" expression="RP.getParameterValue('sysparm_test_id')"/>
+<g:evaluate var="jvar_question" object="true">
+	var testId = RP.getParameterValue('sysparm_test_id');
+	var questions = new GlideRecord("x_78983_language_p_phrase_test");
+	questions.addQuery("test", testId);
+	questions.query();
+	questions;
+</g:evaluate>
+<j:while test="${jvar_question.next()}">
+	<div id="block_${jvar_question.getValue('sys_id')}" class="question_block" onload="getAnswers();">
+		<p>Phrase: ${jvar_question.getValue("test_phrase")}</p>
+		<j:set var="jvar_your_answer" value="${jvar_question.getValue('your_answer')}"/>
+		<g:evaluate var="jvar_answer_populated" jelly="true">
+			var yourAnswer = '${jvar_your_answer}';
+			if (yourAnswer != '')
+				returnStr = "pointer-events: none;";
+			else
+				returnStr = "";
+			returnStr;
+		</g:evaluate>
+		<input id="${jvar_question.getValue('sys_id')}" style="${jvar_answer_populated}" class="input_answer" value="${jvar_question.getValue('your_answer')}" />
+		<br/>
+		<j:choose>
+			<j:when test="${jvar_question.getValue('correct') == 'Yes'}">
+				<div id="response_${jvar_question.getValue('sys_id')}">Correct!</div>
+			</j:when>
+			<j:when test="${jvar_question.getValue('correct') == 'No'}">
+				<div id="response_${jvar_question.getValue('sys_id')}">Wrong, correct answer: ${jvar_question.getValue('correct_answer')}</div>
+			</j:when>
+			<j:otherwise>
+				<div id="response_${jvar_question.getValue('sys_id')}" />
+			</j:otherwise>
+		</j:choose>
+	</div>
+</j:while>
+<div id="submit_button" onclick="getAnswers();"><strong>SUBMIT</strong></div>
+</j:jelly>]]></html>
+        <name>phrase_test</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-02 20:13:43</sys_created_on>
+        <sys_id>769c9513dbd63300a966487039961926</sys_id>
+        <sys_mod_count>74</sys_mod_count>
+        <sys_name>phrase_test</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_ui_page_769c9513dbd63300a966487039961926</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 08:56:55</sys_updated_on>
+    </sys_ui_page>
+</record_update>

@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_app_install">
+    <sys_push_notif_app_install action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <last_registered_on>2019-07-08 09:15:23</last_registered_on>
+        <sys_class_name>sys_push_notif_app_install</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 13:32:06</sys_created_on>
+        <sys_id>cbc09621db923300a96648703996193b</sys_id>
+        <sys_mod_count>97</sys_mod_count>
+        <sys_name>cEiIsV8KSmo:APA91bGmCNI3QE-oBh1aKoY5GooGuxflMELIN6X4H5dp9xO1jOo7LVqY8autdbyPg1Y2JuLAcTkUvcEYXnrKYqICmFZI4E9f4tyrtD15-8YOCHLgFyEJJVjmO3nrHOeri5x6x9NQQrM1</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_push_application_id display_value="ServiceNow Mobile Application">05ed2fb177002300258da2e2c81061c2</sys_push_application_id>
+        <sys_push_platform_id display_value="Google">53e75f30ff0002009738ffffffffff12</sys_push_platform_id>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_push_notif_app_install_cbc09621db923300a96648703996193b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 09:15:23</sys_updated_on>
+        <sys_user_id display_value="Adam Domanski">6816f79cc0a8016401c5a33be04be441</sys_user_id>
+        <token>cEiIsV8KSmo:APA91bGmCNI3QE-oBh1aKoY5GooGuxflMELIN6X4H5dp9xO1jOo7LVqY8autdbyPg1Y2JuLAcTkUvcEYXnrKYqICmFZI4E9f4tyrtD15-8YOCHLgFyEJJVjmO3nrHOeri5x6x9NQQrM1</token>
+    </sys_push_notif_app_install>
+</record_update>

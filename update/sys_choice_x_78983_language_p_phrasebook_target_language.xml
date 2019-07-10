@@ -1,0 +1,1407 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="target_language" table="x_78983_language_p_phrasebook" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>acongojado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36fc3985db6e3300a9664870399619ce</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>acongojado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>acostumbrarse</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35fcf585db6e3300a966487039961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>acostumbrarse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>adelgacer</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4afc3985db6e3300a96648703996190b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>adelgacer</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ajeno</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dfcf585db6e3300a966487039961981</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>ajeno</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>aprobar</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96fc3985db6e3300a966487039961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>aprobar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>as soon as i can</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35fcf585db6e3300a96648703996199e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>as soon as i can</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>basta</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dfcf585db6e3300a96648703996198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>basta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>bricolaje</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>06fcf585db6e3300a9664870399619d2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>bricolaje</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>caber</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dfcf585db6e3300a966487039961963</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>caber</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>carbohydrates</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>86fc3985db6e3300a966487039961913</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>carbohydrates</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>contrariado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f6fc3985db6e3300a9664870399619d8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>contrariado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>crush</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46fcf585db6e3300a9664870399619d9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>crush</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>de hecho</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66fc3985db6e3300a96648703996195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>de hecho</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>de repente</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6fcf585db6e3300a9664870399619e8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>de repente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>desmoronarse</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>63fc7985db6e3300a966487039961999</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:18</sys_updated_on>
+            <value>desmoronarse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>desolado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e6fc3985db6e3300a9664870399619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>desolado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>disparar</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56fc3985db6e3300a96648703996193c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>disparar</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>distrair</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>46fcf585db6e3300a9664870399619cb</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>distrair</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>encuestados</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bfc7985db6e3300a966487039961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:16</sys_updated_on>
+            <value>encuestados</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>English</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6a9475a9db923300a966487039961922</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:28:54</sys_updated_on>
+            <value>English</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>escasa</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a6fc3985db6e3300a966487039961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>escasa</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estar de pie</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6afc3985db6e3300a966487039961971</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>estar de pie</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estar sentado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75fcf585db6e3300a9664870399619a4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>estar sentado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy alarmado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>4bfc7985db6e3300a96648703996190d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy alarmado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy alterado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>72fc3985db6e3300a9664870399619e3</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy alterado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy angustiado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>3afc3985db6e3300a9664870399619ed</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy angustiado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy descompuesto</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43fc3985db6e3300a9664870399619f8</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy descompuesto</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy desconcertado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ffc7985db6e3300a966487039961902</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy desconcertado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>estoy desolado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:15</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0bfc7985db6e3300a966487039961918</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:15</sys_updated_on>
+            <value>estoy desolado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>excluyentes</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53fc7985db6e3300a96648703996193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:16</sys_updated_on>
+            <value>excluyentes</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>exigir</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>96fc3985db6e3300a966487039961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>exigir</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>fastidiado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>f2fc3985db6e3300a9664870399619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>fastidiado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>flojo</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29fcf585db6e3300a966487039961956</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>flojo</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>frente a</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>53fc7985db6e3300a966487039961951</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:16</sys_updated_on>
+            <value>frente a</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>gobernante</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5bfc7985db6e3300a966487039961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:17</sys_updated_on>
+            <value>gobernante</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>instead</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5afc3985db6e3300a96648703996192b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>instead</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>investment</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>5afc3985db6e3300a96648703996194d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>investment</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ironing board</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dfcf585db6e3300a9664870399619bd</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>ironing board</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>it is falling apart</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2ffc7985db6e3300a96648703996198c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:17</sys_updated_on>
+            <value>it is falling apart</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>jovencito</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25fcf585db6e3300a96648703996194e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>jovencito</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>la cita</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>56fc3985db6e3300a96648703996191b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>la cita</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>lamentablemente</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>a1fcb585db6e3300a9664870399619bc</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>lamentablemente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>lighthouse</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9efc3985db6e3300a966487039961944</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>lighthouse</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>maldicion</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65fcf585db6e3300a96648703996196d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>maldicion</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>malhumorado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>36fc3985db6e3300a9664870399619ba</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>malhumorado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>maloliente</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6dfcf585db6e3300a96648703996195a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>maloliente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>marxism</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0afcf585db6e3300a9664870399619e0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>marxism</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>mass</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>c6fcf585db6e3300a9664870399619f7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>mass</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>nonetheless</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>7dfcf585db6e3300a9664870399619b0</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>nonetheless</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>nos ponemos al día</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>6bfc7985db6e3300a966487039961980</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:17</sys_updated_on>
+            <value>nos ponemos al día</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>okupación</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1ffc7985db6e3300a96648703996195c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:17</sys_updated_on>
+            <value>okupación</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>ponerse en cuclillas</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2efc3985db6e3300a9664870399619a6</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>ponerse en cuclillas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>power outage</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>75fcf585db6e3300a966487039961998</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>power outage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>prender</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29fcf585db6e3300a966487039961968</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>prender</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>printouts</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>35fcf585db6e3300a9664870399619b7</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>printouts</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>quedarse perfil sentado</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:14</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>e2fc3985db6e3300a96648703996199d</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:14</sys_updated_on>
+            <value>quedarse perfil sentado</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>quedarse rodillas</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:13</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>66fc3985db6e3300a966487039961987</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:13</sys_updated_on>
+            <value>quedarse rodillas</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>reach</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25fcf585db6e3300a966487039961972</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>reach</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>react</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39fcf585db6e3300a966487039961992</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>react</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>receta</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65fcf585db6e3300a966487039961952</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>receta</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>rewarded</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:17</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bfc7985db6e3300a966487039961974</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:17</sys_updated_on>
+            <value>rewarded</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>según</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39fcf585db6e3300a9664870399619aa</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>según</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>shaken</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>25fcf585db6e3300a96648703996195f</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>shaken</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>shortage</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>1bfc7985db6e3300a966487039961945</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:16</sys_updated_on>
+            <value>shortage</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Spanish</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:28:54</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2e9475a9db923300a9664870399619b2</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:28:54</sys_updated_on>
+            <value>Spanish</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>successful</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29fcf585db6e3300a96648703996197c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>successful</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>sutil</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:18</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>2bfc7985db6e3300a9664870399619a5</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:18</sys_updated_on>
+            <value>sutil</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>teniente</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:09</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>29fcb585db6e3300a9664870399619c1</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:09</sys_updated_on>
+            <value>teniente</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>tontería</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:10</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>65fcf585db6e3300a966487039961977</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:10</sys_updated_on>
+            <value>tontería</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>vacuum cleaner</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>39fcf585db6e3300a9664870399619c4</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>vacuum cleaner</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>vivienda digna</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:16</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0ffc7985db6e3300a96648703996192e</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:16</sys_updated_on>
+            <value>vivienda digna</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>walks</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:11</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8efcf585db6e3300a9664870399619ef</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:11</sys_updated_on>
+            <value>walks</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>target_language</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>worth it</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-08 09:04:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>9efc3985db6e3300a966487039961933</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-08 09:04:12</sys_updated_on>
+            <value>worth it</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>target_language</element>
+            <name>x_78983_language_p_phrasebook</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-06-27 11:28:54</sys_created_on>
+            <sys_id>e69475a9db923300a966487039961923</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>target_language</sys_name>
+            <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+            <sys_update_name>sys_choice_x_78983_language_p_phrasebook_target_language</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-06-27 11:28:54</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

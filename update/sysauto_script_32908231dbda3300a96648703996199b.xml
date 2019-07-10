@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>false</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Send phrasebook push notifications</name>
+        <run_as display_value="Adam Domanski">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:05:00</run_period>
+        <run_start>2019-06-28 06:59:50</run_start>
+        <run_time>1970-01-01 08:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var profiles = new GlideRecord("x_78983_language_p_profile");
+profiles.addActiveQuery();
+profiles.query();
+while(profiles.next()) {
+	var secsToWait = 0 - (profiles.mins_between_not * 60);
+	var gdt = new GlideDateTime();
+	gdt.addSeconds(secsToWait);
+	
+	var lastSentGdt = new GlideDateTime();
+	lastSentGdt.setDisplayValueInternal(profiles.last_not_sent+'');
+	
+	if(lastSentGdt.getDisplayValue() == "" || lastSentGdt.before(gdt)) {
+		
+		var test = new GlideRecord("x_78983_language_p_phrase_test_intstance");
+		test.addQuery("user", profiles.user+'');
+		test.addQuery("status", "!=", "complete");
+		test.query();
+		if(test.next()) {
+			var question = new GlideRecord("x_78983_language_p_phrase_test");
+			question.addQuery("test", test.sys_id);
+			question.addNullQuery("correct");
+			question.orderBy("push_notification_sent");
+			question.query();
+			if(question.next()) {
+				gs.eventQueue("x_78983_language_p.send_phrase_quiz_push", question);
+				question.push_notification_sent = new GlideDateTime().getDisplayValue();
+				question.update();
+			}
+		} else {
+			var newTest = new GlideRecord("x_78983_language_p_phrase_test_intstance");
+			newTest.initialize();
+			newTest.user = profiles.user+'';
+			newTest.no_of_questions = profiles.max_questions_per_test;
+			newTest.status = "ready";
+			newTest.insert();
+			
+			var phrase = new GlideRecord("x_78983_language_p_phrasebook");
+			phrase.addQuery("ignore", false);
+			phrase.user = profiles.user+'';
+			phrase.orderBy("last_correct_answer");
+			phrase.setLimit(parseInt(newTest.no_of_questions));
+			phrase.query();
+			while(phrase.next()) {
+				var newQ = new GlideRecord("x_78983_language_p_phrase_test");
+				newQ.initialize();
+				newQ.phrase = phrase.sys_id+'';
+				newQ.test_phrase = phrase.source_text;
+				newQ.test = newTest.sys_id+'';
+				newQ.correct_answer = phrase.target_text+'';
+				newQ.insert();
+				
+				phrase.last_notification = new GlideDateTime().getDisplayValue();
+				phrase.update();
+			}
+			
+			gs.eventQueue("x_78983_language_p.new_phrase_quiz_push", newTest);
+		}
+	}
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-28 07:00:50</sys_created_on>
+        <sys_id>32908231dbda3300a96648703996199b</sys_id>
+        <sys_mod_count>43</sys_mod_count>
+        <sys_name>Send phrasebook push notifications</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sysauto_script_32908231dbda3300a96648703996199b</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-08 15:24:40</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>

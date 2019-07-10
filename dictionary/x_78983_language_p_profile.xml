@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Profile" max_length="40" name="x_78983_language_p_profile" type="collection">
+        <element default="true" label="Active" max_length="40" name="active" type="boolean"/>
+        <element default="10" label="I knows before ignore" max_length="40" name="i_knows_before_ignore" type="integer"/>
+        <element label="Last notification sent" max_length="40" name="last_not_sent" type="glide_date_time"/>
+        <element label="Max questions per test" max_length="20" name="max_questions_per_test" type="integer"/>
+        <element default="60" label="Minutes between each notification" mandatory="true" max_length="40" name="mins_between_not" type="integer"/>
+        <element display="true" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

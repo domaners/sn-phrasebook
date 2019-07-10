@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_data_item">
+    <sys_sg_data_item action="INSERT_OR_UPDATE">
+        <condition_type>declarative</condition_type>
+        <description/>
+        <group_by/>
+        <name>Quiz Question</name>
+        <query_condition table="x_78983_language_p_phrase_test">phrase.userDYNAMIC90d1921e5f510100a9ad2572f2b477fe^correct=<item endquery="false" field="phrase.user" goto="false" newquery="false" operator="DYNAMIC" or="false" value="90d1921e5f510100a9ad2572f2b477fe"/>
+            <item endquery="false" field="correct" goto="false" newquery="false" operator="=" or="false" value=""/>
+        </query_condition>
+        <query_condition_script/>
+        <sys_class_name>sys_sg_data_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-30 22:25:54</sys_created_on>
+        <sys_id>6bb72ba6db523300a96648703996196a</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Quiz Question</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_sg_data_item_6bb72ba6db523300a96648703996196a</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:25:54</sys_updated_on>
+        <table>x_78983_language_p_phrase_test</table>
+    </sys_sg_data_item>
+</record_update>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_details_screen">
+    <sys_sg_details_screen action="INSERT_OR_UPDATE">
+        <application_roles/>
+        <available_offline>false</available_offline>
+        <data_item display_value="Quiz Question">6bb72ba6db523300a96648703996196a</data_item>
+        <description/>
+        <fetch_type>not_required</fetch_type>
+        <hidden>false</hidden>
+        <icon display_value="file-alt">1a08e3e6db523300a96648703996199e</icon>
+        <item_view display_value="Quiz Questions detail item view">aa08eba6db523300a966487039961963</item_view>
+        <name>Details</name>
+        <order>10</order>
+        <parent>f208e3e6db523300a9664870399619a4</parent>
+        <parent_table>sys_sg_master_item</parent_table>
+        <roles_override/>
+        <sys_class_name>sys_sg_details_screen</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-30 22:27:13</sys_created_on>
+        <sys_id>7a08e3e6db523300a9664870399619b9</sys_id>
+        <sys_mod_count>8</sys_mod_count>
+        <sys_name>Details</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_sg_details_screen_7a08e3e6db523300a9664870399619b9</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:34:38</sys_updated_on>
+    </sys_sg_details_screen>
+</record_update>

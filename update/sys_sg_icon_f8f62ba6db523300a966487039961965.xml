@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_icon">
+    <sys_sg_icon action="INSERT_OR_UPDATE">
+        <icon>{"Shape":"Circle","FontName":"Font Awesome 5 Free","Value":"f14a","FontColor":"#293E40","BackgroundColor":"#293E40","Name":"check-square"}</icon>
+        <name>check-square</name>
+        <sys_class_name>sys_sg_icon</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-30 22:22:26</sys_created_on>
+        <sys_id>f8f62ba6db523300a966487039961965</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>check-square</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_sg_icon_f8f62ba6db523300a966487039961965</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:22:26</sys_updated_on>
+    </sys_sg_icon>
+</record_update>

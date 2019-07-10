@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_master_item">
+    <sys_sg_master_item action="INSERT_OR_UPDATE">
+        <condition/>
+        <condition_order/>
+        <item_view display_value="My Phrases item view">0b4bd2e9db923300a966487039961920</item_view>
+        <name>Master Item</name>
+        <screen display_value="My Phrases">074b92e9db923300a9664870399619d8</screen>
+        <sys_class_name>sys_sg_master_item</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-27 14:17:59</sys_created_on>
+        <sys_id>174b92e9db923300a9664870399619dc</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>Master Item</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_sg_master_item_174b92e9db923300a9664870399619dc</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-27 14:17:59</sys_updated_on>
+        <table>x_78983_language_p_phrasebook</table>
+    </sys_sg_master_item>
+</record_update>

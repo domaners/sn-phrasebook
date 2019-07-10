@@ -1,0 +1,97 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Phrasebook" max_length="40" name="x_78983_language_p_phrasebook" type="collection">
+        <element label="Ignore" max_length="40" name="ignore" type="boolean"/>
+        <element default="0" label="I know count" max_length="40" name="i_know_count" type="integer"/>
+        <element attributes="edge_encryption_enabled=true" label="Last correct answer" max_length="40" name="last_correct_answer" type="glide_date_time"/>
+        <element label="Last notification" max_length="40" name="last_notification" type="glide_date_time"/>
+        <element choice="1" label="Source language" mandatory="true" max_length="40" name="source_language" type="string">
+            <choice>
+                <element inactive_on_update="false" label="English" sequence="0" value="English"/>
+                <element inactive_on_update="false" label="Spanish" sequence="0" value="Spanish"/>
+            </choice>
+        </element>
+        <element display="true" label="Source text" mandatory="true" max_length="1000" name="source_text" type="string"/>
+        <element choice="1" label="Target language" mandatory="true" max_length="40" name="target_language" type="string">
+            <choice>
+                <element inactive_on_update="false" label="acongojado" sequence="0" value="acongojado"/>
+                <element inactive_on_update="false" label="acostumbrarse" sequence="0" value="acostumbrarse"/>
+                <element inactive_on_update="false" label="adelgacer" sequence="0" value="adelgacer"/>
+                <element inactive_on_update="false" label="ajeno" sequence="0" value="ajeno"/>
+                <element inactive_on_update="false" label="aprobar" sequence="0" value="aprobar"/>
+                <element inactive_on_update="false" label="as soon as i can" sequence="0" value="as soon as i can"/>
+                <element inactive_on_update="false" label="basta" sequence="0" value="basta"/>
+                <element inactive_on_update="false" label="bricolaje" sequence="0" value="bricolaje"/>
+                <element inactive_on_update="false" label="caber" sequence="0" value="caber"/>
+                <element inactive_on_update="false" label="carbohydrates" sequence="0" value="carbohydrates"/>
+                <element inactive_on_update="false" label="contrariado" sequence="0" value="contrariado"/>
+                <element inactive_on_update="false" label="crush" sequence="0" value="crush"/>
+                <element inactive_on_update="false" label="de hecho" sequence="0" value="de hecho"/>
+                <element inactive_on_update="false" label="de repente" sequence="0" value="de repente"/>
+                <element inactive_on_update="false" label="desmoronarse" sequence="0" value="desmoronarse"/>
+                <element inactive_on_update="false" label="desolado" sequence="0" value="desolado"/>
+                <element inactive_on_update="false" label="disparar" sequence="0" value="disparar"/>
+                <element inactive_on_update="false" label="distrair" sequence="0" value="distrair"/>
+                <element inactive_on_update="false" label="encuestados" sequence="0" value="encuestados"/>
+                <element inactive_on_update="false" label="English" sequence="0" value="English"/>
+                <element inactive_on_update="false" label="escasa" sequence="0" value="escasa"/>
+                <element inactive_on_update="false" label="estar de pie" sequence="0" value="estar de pie"/>
+                <element inactive_on_update="false" label="estar sentado" sequence="0" value="estar sentado"/>
+                <element inactive_on_update="false" label="estoy alarmado" sequence="0" value="estoy alarmado"/>
+                <element inactive_on_update="false" label="estoy alterado" sequence="0" value="estoy alterado"/>
+                <element inactive_on_update="false" label="estoy angustiado" sequence="0" value="estoy angustiado"/>
+                <element inactive_on_update="false" label="estoy descompuesto" sequence="0" value="estoy descompuesto"/>
+                <element inactive_on_update="false" label="estoy desconcertado" sequence="0" value="estoy desconcertado"/>
+                <element inactive_on_update="false" label="estoy desolado" sequence="0" value="estoy desolado"/>
+                <element inactive_on_update="false" label="excluyentes" sequence="0" value="excluyentes"/>
+                <element inactive_on_update="false" label="exigir" sequence="0" value="exigir"/>
+                <element inactive_on_update="false" label="fastidiado" sequence="0" value="fastidiado"/>
+                <element inactive_on_update="false" label="flojo" sequence="0" value="flojo"/>
+                <element inactive_on_update="false" label="frente a" sequence="0" value="frente a"/>
+                <element inactive_on_update="false" label="gobernante" sequence="0" value="gobernante"/>
+                <element inactive_on_update="false" label="instead" sequence="0" value="instead"/>
+                <element inactive_on_update="false" label="investment" sequence="0" value="investment"/>
+                <element inactive_on_update="false" label="ironing board" sequence="0" value="ironing board"/>
+                <element inactive_on_update="false" label="it is falling apart" sequence="0" value="it is falling apart"/>
+                <element inactive_on_update="false" label="jovencito" sequence="0" value="jovencito"/>
+                <element inactive_on_update="false" label="la cita" sequence="0" value="la cita"/>
+                <element inactive_on_update="false" label="lamentablemente" sequence="0" value="lamentablemente"/>
+                <element inactive_on_update="false" label="lighthouse" sequence="0" value="lighthouse"/>
+                <element inactive_on_update="false" label="maldicion" sequence="0" value="maldicion"/>
+                <element inactive_on_update="false" label="malhumorado" sequence="0" value="malhumorado"/>
+                <element inactive_on_update="false" label="maloliente" sequence="0" value="maloliente"/>
+                <element inactive_on_update="false" label="marxism" sequence="0" value="marxism"/>
+                <element inactive_on_update="false" label="mass" sequence="0" value="mass"/>
+                <element inactive_on_update="false" label="nonetheless" sequence="0" value="nonetheless"/>
+                <element inactive_on_update="false" label="nos ponemos al día" sequence="0" value="nos ponemos al día"/>
+                <element inactive_on_update="false" label="okupación" sequence="0" value="okupación"/>
+                <element inactive_on_update="false" label="ponerse en cuclillas" sequence="0" value="ponerse en cuclillas"/>
+                <element inactive_on_update="false" label="power outage" sequence="0" value="power outage"/>
+                <element inactive_on_update="false" label="prender" sequence="0" value="prender"/>
+                <element inactive_on_update="false" label="printouts" sequence="0" value="printouts"/>
+                <element inactive_on_update="false" label="quedarse perfil sentado" sequence="0" value="quedarse perfil sentado"/>
+                <element inactive_on_update="false" label="quedarse rodillas" sequence="0" value="quedarse rodillas"/>
+                <element inactive_on_update="false" label="reach" sequence="0" value="reach"/>
+                <element inactive_on_update="false" label="react" sequence="0" value="react"/>
+                <element inactive_on_update="false" label="receta" sequence="0" value="receta"/>
+                <element inactive_on_update="false" label="rewarded" sequence="0" value="rewarded"/>
+                <element inactive_on_update="false" label="según" sequence="0" value="según"/>
+                <element inactive_on_update="false" label="shaken" sequence="0" value="shaken"/>
+                <element inactive_on_update="false" label="shortage" sequence="0" value="shortage"/>
+                <element inactive_on_update="false" label="Spanish" sequence="0" value="Spanish"/>
+                <element inactive_on_update="false" label="successful" sequence="0" value="successful"/>
+                <element inactive_on_update="false" label="sutil" sequence="0" value="sutil"/>
+                <element inactive_on_update="false" label="teniente" sequence="0" value="teniente"/>
+                <element inactive_on_update="false" label="tontería" sequence="0" value="tontería"/>
+                <element inactive_on_update="false" label="vacuum cleaner" sequence="0" value="vacuum cleaner"/>
+                <element inactive_on_update="false" label="vivienda digna" sequence="0" value="vivienda digna"/>
+                <element inactive_on_update="false" label="walks" sequence="0" value="walks"/>
+                <element inactive_on_update="false" label="worth it" sequence="0" value="worth it"/>
+            </choice>
+        </element>
+        <element label="Target text" mandatory="true" max_length="1000" name="target_text" type="string"/>
+        <element default="javascript:gs.getUserID()" dynamic_default_value="2fd8e97bef3221002841f7f775c0fbc1" label="User" mandatory="true" max_length="32" name="user" reference="sys_user" type="reference" use_dynamic_default="true"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>

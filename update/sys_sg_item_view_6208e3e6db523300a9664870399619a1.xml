@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_sg_item_view">
+    <sys_sg_item_view action="INSERT_OR_UPDATE">
+        <data_item display_value="Quiz Question">6bb72ba6db523300a96648703996196a</data_item>
+        <dependency_fields>phrase,your_answer,correct</dependency_fields>
+        <item_view_json>{"Type":"ViewGroup","Margin":{"Top":15,"Bottom":17},"Orientation":"Vertical","Alignment":"Left","Distribution":"Auto","Children":[{"Type":"Text","studio_template_field_id":"E1","TextColor":"#293E40","TextAlignment":"Left","MaxLines":2,"Font":{"Weight":"medium","Size":18},"CellId":"phrase"},{"Type":"Text","Margin":{"Top":7},"studio_template_field_id":"E2","TextColor":"#293e40","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":16},"CellId":"your_answer"},{"Type":"Text","Margin":{"Top":7},"studio_template_field_id":"E3","TextColor":"#7d8a8c","TextAlignment":"Left","MaxLines":1,"Font":{"Weight":"regular","Size":13},"CellId":"correct"}],"studio_card_id":"c5eea09173c12300d396c8168bf6a71e"}</item_view_json>
+        <name>Quiz Questions item view</name>
+        <short_description/>
+        <sys_class_name>sys_sg_item_view</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-06-30 22:27:12</sys_created_on>
+        <sys_id>6208e3e6db523300a9664870399619a1</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Quiz Questions item view</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_sg_item_view_6208e3e6db523300a9664870399619a1</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-06-30 22:33:36</sys_updated_on>
+        <ui_styles/>
+    </sys_sg_item_view>
+</record_update>

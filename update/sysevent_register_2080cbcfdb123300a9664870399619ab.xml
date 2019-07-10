@@ -1,0 +1,22 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysevent_register">
+    <sysevent_register action="INSERT_OR_UPDATE">
+        <description/>
+        <event_name>x_78983_language_p.new_phrase_quiz_push</event_name>
+        <fired_by/>
+        <queue/>
+        <suffix>new_phrase_quiz_push</suffix>
+        <sys_class_name>sysevent_register</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-02 08:51:50</sys_created_on>
+        <sys_id>2080cbcfdb123300a9664870399619ab</sys_id>
+        <sys_mod_count>0</sys_mod_count>
+        <sys_name>x_78983_language_p.new_phrase_quiz_push</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sysevent_register_2080cbcfdb123300a9664870399619ab</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-02 08:51:50</sys_updated_on>
+        <table>x_78983_language_p_phrase_test_intstance</table>
+    </sysevent_register>
+</record_update>

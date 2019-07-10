@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?><database>
+    <element label="Phrase Test Instance" max_length="40" name="x_78983_language_p_phrase_test_intstance" type="collection">
+        <element label="Correct" max_length="40" name="correct" type="integer"/>
+        <element label="Incorrect" max_length="40" name="incorrect" type="integer"/>
+        <element label="No. of questions" max_length="40" name="no_of_questions" type="integer"/>
+        <element default="javascript:getNextObjNumberPadded();" display="true" dynamic_default_value="fdcb83a85f220100a9ad2572f2b4773c" label="Number" max_length="40" name="number" type="string" use_dynamic_default="true"/>
+        <element label="Percentage" max_length="15" name="percentage" type="percent_complete"/>
+        <element choice="3" default="ready" label="Status" max_length="40" name="status" type="string">
+            <choice>
+                <element inactive_on_update="false" label="Complete" value="complete"/>
+                <element inactive_on_update="false" label="In Progress" value="in_progress"/>
+                <element inactive_on_update="false" label="Ready" value="ready"/>
+            </choice>
+        </element>
+        <element label="User" max_length="32" name="user" reference="sys_user" type="reference"/>
+        <index name="index">
+            <element name="user"/>
+        </index>
+    </element>
+</database>
