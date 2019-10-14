@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
     <sysauto_script action="INSERT_OR_UPDATE">
-        <active>true</active>
+        <active>false</active>
         <condition/>
         <conditional>false</conditional>
         <name>Send phrasebook reminder</name>
@@ -41,14 +41,14 @@ while(profiles.next()) {
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-08 15:30:21</sys_created_on>
         <sys_id>b0441fc9db227300a96648703996195c</sys_id>
-        <sys_mod_count>3</sys_mod_count>
+        <sys_mod_count>4</sys_mod_count>
         <sys_name>Send phrasebook reminder</sys_name>
         <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
         <sys_policy/>
         <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
         <sys_update_name>sysauto_script_b0441fc9db227300a96648703996195c</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-09 08:12:27</sys_updated_on>
+        <sys_updated_on>2019-07-19 08:27:17</sys_updated_on>
         <upgrade_safe>false</upgrade_safe>
     </sysauto_script>
 </record_update>

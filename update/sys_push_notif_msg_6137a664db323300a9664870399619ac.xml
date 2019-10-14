@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg">
+    <sys_push_notif_msg action="INSERT_OR_UPDATE">
+        <message_string>Translate the phrase: ${phrase}</message_string>
+        <name>Phrasebook question</name>
+        <push_app display_value="ServiceNow Classic Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <push_message_content display_value="Phrase question reminder">6857e228db323300a9664870399619ae</push_message_content>
+        <subject/>
+        <sys_class_name>sys_push_notif_msg</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 09:07:29</sys_created_on>
+        <sys_id>6137a664db323300a9664870399619ac</sys_id>
+        <sys_mod_count>6</sys_mod_count>
+        <sys_name>Phrasebook question</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_push_notif_msg_6137a664db323300a9664870399619ac</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 09:52:42</sys_updated_on>
+        <table>x_78983_language_p_phrase_test</table>
+        <type>push</type>
+    </sys_push_notif_msg>
+</record_update>

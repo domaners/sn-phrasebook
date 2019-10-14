@@ -4,8 +4,10 @@
         <available_offline>false</available_offline>
         <data_item display_value="Quiz Question">6bb72ba6db523300a96648703996196a</data_item>
         <description/>
+        <dynamic_prefetch_count/>
         <fetch_type>not_required</fetch_type>
         <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
         <icon display_value="file-alt">1a08e3e6db523300a96648703996199e</icon>
         <item_view display_value="Quiz Questions detail item view">aa08eba6db523300a966487039961963</item_view>
         <name>Details</name>
@@ -25,5 +27,6 @@
         <sys_update_name>sys_sg_details_screen_7a08e3e6db523300a9664870399619b9</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-30 22:34:38</sys_updated_on>
+        <table/>
     </sys_sg_details_screen>
 </record_update>

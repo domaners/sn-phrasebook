@@ -3,55 +3,113 @@
         <access>package_private</access>
         <active>true</active>
         <api_name>x_78983_language_p.phrasebookAjaxUtils</api_name>
+        <caller_access/>
         <client_callable>true</client_callable>
         <description/>
         <name>phrasebookAjaxUtils</name>
         <script><![CDATA[var phrasebookAjaxUtils = Class.create();
 phrasebookAjaxUtils.prototype = Object.extendsObject(global.AbstractAjaxProcessor, {
-
+	
+	getNextQuestion: function() {
+		var nextIndex = parseInt(this.getParameter("sysparm_question_index"));
+		var qGr = new GlideRecord("x_78983_language_p_phrase_test");
+		qGr.addQuery("phrase.user", gs.getUserID());
+		qGr.addNullQuery("correct");
+		qGr.orderBy("phrase.last_notification");
+		qGr.query();
+		for (var i = 0; i <= nextIndex; i++) {
+			if(qGr.hasNext())
+				qGr.next();
+			else
+				break;
+		}
+		return qGr.sys_id+'';
+	},
+	
+	setQuestionAnswer: function() {
+		
+		var isCorrect = this.getParameter("sysparm_is_correct");
+		var userAnswer = this.getParameter("sysparm_user_answer");
+		var questionID = this.getParameter("sysparm_question_id");
+		var returnMsg = "";
+		
+		var pbq = new GlideRecord("x_78983_language_p_phrase_test");
+		if(pbq.get(questionID)) {
+			
+			var profileGr = new GlideRecord("x_78983_language_p_profile");
+			profileGr.get("user", pbq.phrase.user+'');
+			
+			var phrase = new GlideRecord("x_78983_language_p_phrasebook");
+			phrase.get(pbq.phrase+'');
+			
+			pbq.your_answer = userAnswer;
+			if(isCorrect == "true") {
+				pbq.correct = "Yes";
+				var correctAnswers = pbq.phrase.i_know_count + 1;
+				if(correctAnswers <= profileGr.i_knows_before_ignore) {
+					phrase.i_know_count = correctAnswers;
+					returnMsg = "Correct! You have " + correctAnswers + " correct answer(s) for this question.";
+				} else {
+					phrase.ignore = true;
+					returnMsg = "Correct! You have reached your goal for this phrase, well done!";
+				}
+				phrase.last_correct_answer = new GlideDateTime().getDisplayValue();
+				phrase.update();
+			} else {
+				pbq.correct = "No";
+				returnMsg = "Incorrect, the correct answer is '" + pbq.correct_answer + "'.";
+			}
+			
+			pbq.update();
+		}
+		
+		gs.info("returnMsg: " + returnMsg);
+		return returnMsg;
+	},
+	
 	getTestAnswersUI: function() {
 		var stringifiedJson = this.getParameter("sysparm_json");
 		gs.info("stringifiedJson: " + stringifiedJson);
 		var json = JSON.parse(stringifiedJson);
 		var returnJson = {};
-		
-		for(var i =0; i < json.length; i++) {
-			// gs.info("answer - " + json[i].id);
-			var question = new GlideRecord("x_78983_language_p_phrase_test");
-			if(question.get(json[i].id)) {
-				var yourAnswer = json[i].value.toLowerCase();
-				var correctAnswer = question.correct_answer.toLowerCase();
-				gs.info("Question: " + question.test_phrase);
-				question.your_answer = yourAnswer;
-				if(json[i].value == correctAnswer) {
-					returnJson[json[i].id] = "Correct!";
-					question.correct = "Yes";
-					question.last_correct_answer = new GlideDateTime().getDisplayValue();
-				} else if (yourAnswer != "") {
-					returnJson[json[i].id] = "Correct answer: " + question.correct_answer;
-					question.correct = "No";
+			
+			for(var i =0; i < json.length; i++) {
+				// gs.info("answer - " + json[i].id);
+				var question = new GlideRecord("x_78983_language_p_phrase_test");
+				if(question.get(json[i].id)) {
+					var yourAnswer = json[i].value.toLowerCase();
+					var correctAnswer = question.correct_answer.toLowerCase();
+					gs.info("Question: " + question.test_phrase);
+					question.your_answer = yourAnswer;
+					if(json[i].value == correctAnswer) {
+						returnJson[json[i].id] = "Correct!";
+						question.correct = "Yes";
+						question.last_correct_answer = new GlideDateTime().getDisplayValue();
+					} else if (yourAnswer != "") {
+						returnJson[json[i].id] = "Correct answer: " + question.correct_answer;
+						question.correct = "No";
+					}
+					question.update();
 				}
-				question.update();
 			}
-		}
+			
+			return JSON.stringify(returnJson);
+			
+		},
 		
-		return JSON.stringify(returnJson);
-		
-	},
-	
-    type: 'phrasebookAjaxUtils'
-});]]></script>
+		type: 'phrasebookAjaxUtils'
+	});]]></script>
         <sys_class_name>sys_script_include</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-02 22:07:51</sys_created_on>
         <sys_id>b105f9dfdbd63300a96648703996192f</sys_id>
-        <sys_mod_count>14</sys_mod_count>
+        <sys_mod_count>24</sys_mod_count>
         <sys_name>phrasebookAjaxUtils</sys_name>
         <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
         <sys_policy>read</sys_policy>
         <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
         <sys_update_name>sys_script_include_b105f9dfdbd63300a96648703996192f</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-08 09:13:02</sys_updated_on>
+        <sys_updated_on>2019-09-03 13:14:48</sys_updated_on>
     </sys_script_include>
 </record_update>

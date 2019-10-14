@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_push_notif_msg_content">
+    <sys_push_notif_msg_content action="INSERT_OR_UPDATE">
+        <name>Phrase question reminder</name>
+        <push_app display_value="ServiceNow Classic Mobile Application">ab704041ff1102009738ffffffffff33</push_app>
+        <script><![CDATA[(function buildJSON(/*GlideRecord*/ current, /*String*/ message, /*Object*/ attributes) {
+    
+	var json = {};
+	
+	json = {
+		"aps": {
+			"sound" : "default"
+		},
+		"web_path": "x_78983_language_p_phrase_test_q.do?sysparm_question_id=" + current.sys_id
+		/*"record" : {
+            "table" : current.getTableName(),
+            "sys_id" : current.sys_id
+        },
+		"scripts" : {
+			"yes_background" : "333ecc6253020200601fa3fc9ec58727",
+			"no_background" : "632ecc6253020200601fa3fc9ec58708" 
+		}*/
+	};
+    
+    return json;
+})(current, message, attributes);]]></script>
+        <sys_class_name>sys_push_notif_msg_content</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 09:07:58</sys_created_on>
+        <sys_id>6857e228db323300a9664870399619ae</sys_id>
+        <sys_mod_count>2</sys_mod_count>
+        <sys_name>Phrase question reminder</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_push_notif_msg_content_6857e228db323300a9664870399619ae</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-07-19 10:14:30</sys_updated_on>
+    </sys_push_notif_msg_content>
+</record_update>

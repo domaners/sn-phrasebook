@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sys_ui_page">
+    <sys_ui_page action="INSERT_OR_UPDATE">
+        <category>general</category>
+        <client_script><![CDATA[function gotoNextQuestion(index) {
+	var nextIndex = parseInt(index + 1);
+	gotoQuestion(nextIndex);
+}
+
+function gotoPreviousQuestion(index) {
+	var nextIndex = parseInt(index - 1);
+	if(nextIndex < 0)
+		nextIndex = 0;
+	gotoQuestion(nextIndex);
+}
+
+function gotoQuestion(nextIndex) {
+	var ga = new GlideAjax("phrasebookAjaxUtils");
+	ga.addParam("sysparm_name", "getNextQuestion");
+	ga.addParam("sysparm_question_index", nextIndex);
+	ga.getXMLAnswer(goToNext);	
+	
+	function goToNext(answer) {
+		window.location.href = "x_78983_language_p_phrase_test_q.do?sysparm_question_id=" + answer + "&sysparm_question_index=" + nextIndex;
+	}
+}
+
+function backToList() {
+	window.location.href = "x_78983_language_p_phrase_test_all_my_questions.do";
+}
+
+function getAnswers(correctAnswer, questionID) {
+	
+	var submitButton = gel("submit_button");
+	submitButton.onclick = "";
+	submitButton.innerHTML = "DONE";
+	submitButton.style.backgroundColor = "#A0A0A0";
+	
+	var isCorrect = false;
+	var userAnswer = "";
+	
+	var radio = document.querySelector("form");
+	for (var rKey = 0; rKey < radio.length; rKey++) {
+		if(radio[rKey].checked === true)
+			userAnswer = radio[rKey].value+'';
+		
+		if(radio[rKey].value === correctAnswer)
+			isCorrect = (radio[rKey].checked === true);
+		
+	}
+	
+	var ga = new GlideAjax("phrasebookAjaxUtils");
+	ga.addParam("sysparm_name", "setQuestionAnswer");
+	ga.addParam("sysparm_is_correct", isCorrect);
+	ga.addParam("sysparm_user_answer", userAnswer);
+	ga.addParam("sysparm_question_id", questionID);
+	ga.getXMLAnswer(displayAlert);	
+	
+	function displayAlert(answer) {
+		var el = gel("correct_statement");
+		el.innerHTML = answer;
+	}
+	
+}]]></client_script>
+        <description/>
+        <direct>false</direct>
+        <endpoint>x_78983_language_p_phrase_test_q.do</endpoint>
+        <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
+<j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
+<style>
+	* {
+		font-size: large;
+	}
+	
+	.input_answer {
+		width: 100%;
+		padding-bottom: 6px;
+		padding-left: 9px;
+		padding-right: 9px;
+		padding-top: 6px;
+	}
+	
+	.question_block, .correct_statement_block {
+		background-color: #F0F0F0;
+		padding-bottom: 6px;
+		padding-left: 9px;
+		padding-right: 9px;
+		padding-top: 6px;
+		margin-bottom: 10px;
+	}
+	
+	#submit_button, #next_button, #previous_button, #back_to_list {
+		align: center;
+		padding-bottom: 12px;
+		padding-left: 12px;
+		padding-right: 12px;
+		padding-top: 18px;
+		color: white;
+		background-color: #3498DB;
+		width: 30%;
+		border-radius: 5px;
+		text-align: center;
+		display: inline-block;
+		border-top: 50px;
+		margin-right: 10px;
+	}
+</style>
+<g:evaluate var="jvar_question" object="true">
+	var questionId = RP.getParameterValue('sysparm_question_id');
+	gs.info("questionId: " + questionId);
+	var questions = new GlideRecord("x_78983_language_p_phrase_test");
+	questions.addQuery("sys_id", questionId);
+	questions.query();
+	questions;
+</g:evaluate>
+<g:evaluate var="jvar_question_index">
+	var index = RP.getParameterValue('sysparm_question_index');
+	if(!index)
+		index = 0;
+	index;
+</g:evaluate>
+<div id="back_to_list" onclick='backToList();'><strong>BACK TO LIST</strong></div>
+<j:while test="${jvar_question.next()}">
+	<div id="block_${jvar_question.getValue('sys_id')}" class="question_block">
+		<p>Phrase: ${jvar_question.getValue("test_phrase")}</p>
+		<form><g:no_escape>${jvar_question.getValue("multi_choice_options")}</g:no_escape></form>
+	</div>
+</j:while>
+<div class="correct_statement_block"><p id="correct_statement"></p></div>
+<div id="previous_button" onclick='gotoPreviousQuestion(${jvar_question_index});'><strong>PREVIOUS</strong></div>
+<div id="submit_button" onclick='getAnswers("${jvar_question.getValue("correct_answer")}", "${jvar_question.getValue("sys_id")}");'><strong>SUBMIT</strong></div>
+<div id="next_button" onclick='gotoNextQuestion(${jvar_question_index});'><strong>NEXT</strong></div>
+</j:jelly>]]></html>
+        <name>phrase_test_q</name>
+        <processing_script/>
+        <sys_class_name>sys_ui_page</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-19 08:27:56</sys_created_on>
+        <sys_id>462e9a20db323300a9664870399619dd</sys_id>
+        <sys_mod_count>59</sys_mod_count>
+        <sys_name>phrase_test_q</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sys_ui_page_462e9a20db323300a9664870399619dd</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 11:46:19</sys_updated_on>
+    </sys_ui_page>
+</record_update>

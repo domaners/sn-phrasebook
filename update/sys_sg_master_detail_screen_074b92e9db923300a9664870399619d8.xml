@@ -4,8 +4,10 @@
         <available_offline>true</available_offline>
         <data_item display_value="Phrasebooks">0b195269db923300a966487039961953</data_item>
         <description/>
+        <dynamic_prefetch_count/>
         <fetch_type>not_required</fetch_type>
         <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
         <icon display_value="file-alt">764bd2e9db923300a96648703996191d</icon>
         <name>My Phrases</name>
         <order>10</order>

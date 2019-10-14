@@ -2,6 +2,9 @@
     <sys_sg_master_item action="INSERT_OR_UPDATE">
         <condition/>
         <condition_order/>
+        <datasource_table/>
+        <datasource_table_condition/>
+        <embedded_screen/>
         <item_view display_value="Quiz Questions item view">6208e3e6db523300a9664870399619a1</item_view>
         <name>Master Item</name>
         <screen display_value="Quiz Questions">fa08eba6db523300a966487039961966</screen>

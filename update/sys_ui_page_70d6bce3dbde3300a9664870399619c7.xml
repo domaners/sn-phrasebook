@@ -4,46 +4,58 @@
         <client_script/>
         <description/>
         <direct>false</direct>
-        <endpoint>x_78983_language_p_phrase_test_my_menu.do</endpoint>
+        <endpoint>x_78983_language_p_phrase_test_all_my_questions.do</endpoint>
         <html><![CDATA[<?xml version="1.0" encoding="utf-8" ?>
 <j:jelly trim="false" xmlns:j="jelly:core" xmlns:g="glide" xmlns:j2="null" xmlns:g2="null">
 <style>
 	#test_block {
 		padding: 10px;
 		border-radius: 3px;
-		background-color: #a0a0a0;
+		margin: 5px;
+		background-color: #e0e0e0;
 	}
 </style>
-<g:evaluate var="jvar_test" object="true">
-	var test = new GlideRecord("x_78983_language_p_phrase_test_intstance");
-	test.addQuery("user", gs.getUserID());
-	test.addQuery("status", "!=", "complete");
-	test.query();
-	test;
+<g:evaluate var="jvar_question" object="true">
+	var qGr = new GlideRecord("x_78983_language_p_phrase_test");
+	qGr.addQuery("phrase.user", gs.getUserID());
+	qGr.addNullQuery("correct");
+	qGr.orderBy("phrase.last_notification");
+	qGr.query();
+	qGr;
 </g:evaluate>
-<j:while test="${jvar_test.next()}">
-	<a href="x_78983_language_p_phrase_test.do?sysparm_test_id=${jvar_test.getValue('sys_id')}">
+<g:evaluate>
+      var qCount = 0;
+</g:evaluate>
+<j:while test="${jvar_question.next()}">
+	<g:evaluate var="jvar_phrase" object="true">
+		var pbGr = new GlideRecord("x_78983_language_p_phrasebook");
+		pbGr.get(jelly.jvar_question.phrase);
+		pbGr;
+	</g:evaluate>
+	<a href="x_78983_language_p_phrase_test_q.do?sysparm_question_id=${jvar_question.getValue('sys_id')}&amp;sysparm_question_index=${qCount}">
 		<div id="test_block">
-			<p>Number: ${jvar_test.getValue("number")}</p>
-			<p>Status: ${jvar_test.getValue("status")}</p>
-			<p>No of questions: ${jvar_test.getValue("no_of_questions")}</p>
+			<p>${jvar_question.getValue("test_phrase")}</p>
+			<p>Type: ${jvar_phrase.getValue("phrase_type")}</p>
 		</div>
 	</a>
+	<g:evaluate>
+		qCount++;
+	</g:evaluate>
 </j:while>
 </j:jelly>]]></html>
-        <name>phrase_test_my_menu</name>
+        <name>phrase_test_all_my_questions</name>
         <processing_script/>
         <sys_class_name>sys_ui_page</sys_class_name>
         <sys_created_by>admin</sys_created_by>
         <sys_created_on>2019-07-03 12:07:07</sys_created_on>
         <sys_id>70d6bce3dbde3300a9664870399619c7</sys_id>
-        <sys_mod_count>9</sys_mod_count>
-        <sys_name>phrase_test_my_menu</sys_name>
+        <sys_mod_count>23</sys_mod_count>
+        <sys_name>phrase_test_all_my_questions</sys_name>
         <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
         <sys_policy/>
         <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
         <sys_update_name>sys_ui_page_70d6bce3dbde3300a9664870399619c7</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
-        <sys_updated_on>2019-07-03 12:50:20</sys_updated_on>
+        <sys_updated_on>2019-09-03 11:04:54</sys_updated_on>
     </sys_ui_page>
 </record_update>

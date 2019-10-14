@@ -7,6 +7,7 @@
             </choice>
         </element>
         <element label="Correct answer" max_length="40" name="correct_answer" read_only="true" type="string"/>
+        <element label="Multi choice options" max_length="2000" name="multi_choice_options" type="string"/>
         <element label="Phrase" max_length="32" name="phrase" reference="x_78983_language_p_phrasebook" type="reference"/>
         <element label="Push notification sent" max_length="40" name="push_notification_sent" type="glide_date_time"/>
         <element label="Test" max_length="32" name="test" reference="x_78983_language_p_phrase_test_intstance" type="reference"/>

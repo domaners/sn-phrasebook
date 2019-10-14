@@ -4,8 +4,10 @@
         <available_offline>true</available_offline>
         <data_item display_value="Phrasebooks">0b195269db923300a966487039961953</data_item>
         <description/>
+        <dynamic_prefetch_count/>
         <fetch_type>not_required</fetch_type>
         <hidden>false</hidden>
+        <hide_filters>false</hide_filters>
         <icon display_value="file-alt">764bd2e9db923300a96648703996191d</icon>
         <item_view display_value="My Phrases detail item view">434bdea9db923300a9664870399619ed</item_view>
         <name>Details</name>
@@ -25,5 +27,6 @@
         <sys_update_name>sys_sg_details_screen_5b4bd2e9db923300a96648703996199a</sys_update_name>
         <sys_updated_by>admin</sys_updated_by>
         <sys_updated_on>2019-06-28 13:17:27</sys_updated_on>
+        <table/>
     </sys_sg_details_screen>
 </record_update>

@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="phrase_type" table="x_78983_language_p_phrasebook" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phrase_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Adjective</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:22:57</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>fdc149b4dbb63300a9664870399619a5</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:23:01</sys_updated_on>
+            <value>Adjective</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phrase_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Noun</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:23:04</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>88d101f4dbb63300a96648703996199e</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:23:08</sys_updated_on>
+            <value>Noun</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phrase_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Phrase</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:22:48</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>43a1c9b4dbb63300a966487039961903</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:22:51</sys_updated_on>
+            <value>Phrase</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>phrase_type</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Verb</label>
+            <language>en</language>
+            <name>x_78983_language_p_phrasebook</name>
+            <sequence/>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:23:12</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>b9d18db4dbb63300a96648703996194a</sys_id>
+            <sys_mod_count>1</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:23:15</sys_updated_on>
+            <value>Verb</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>phrase_type</element>
+            <name>x_78983_language_p_phrasebook</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:22:48</sys_created_on>
+            <sys_id>b5c1c1b4dbb63300a96648703996193a</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>phrase_type</sys_name>
+            <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+            <sys_update_name>sys_choice_x_78983_language_p_phrasebook_phrase_type</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:22:48</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

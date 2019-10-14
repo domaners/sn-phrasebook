@@ -2,6 +2,9 @@
     <sys_sg_master_item action="INSERT_OR_UPDATE">
         <condition/>
         <condition_order/>
+        <datasource_table/>
+        <datasource_table_condition/>
+        <embedded_screen/>
         <item_view display_value="My Phrases item view">0b4bd2e9db923300a966487039961920</item_view>
         <name>Master Item</name>
         <screen display_value="My Phrases">074b92e9db923300a9664870399619d8</screen>

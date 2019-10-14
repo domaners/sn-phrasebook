@@ -4,13 +4,13 @@
             <element>.begin_split</element>
             <position>0</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>36c74f95db623300a9664870399619fc</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>a26189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -18,13 +18,13 @@
             <element>source_language</element>
             <position>1</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>fec74f95db623300a9664870399619fc</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>266189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -32,13 +32,13 @@
             <element>source_text</element>
             <position>2</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>76c74f95db623300a9664870399619fd</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>a66189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -46,13 +46,13 @@
             <element>.split</element>
             <position>3</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>fac74f95db623300a9664870399619fd</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>2a6189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -60,13 +60,13 @@
             <element>target_language</element>
             <position>4</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>72c74f95db623300a9664870399619fe</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>aa6189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -74,13 +74,13 @@
             <element>target_text</element>
             <position>5</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>f6c74f95db623300a9664870399619fe</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>2e6189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -88,13 +88,13 @@
             <element>.end_split</element>
             <position>6</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>7ec74f95db623300a9664870399619fe</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>ae6189b4dbb63300a9664870399619f8</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>
@@ -102,13 +102,13 @@
             <element>.begin_split</element>
             <position>7</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>f2c74f95db623300a9664870399619ff</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>226189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.begin_split</type>
         </sys_ui_element>
@@ -116,41 +116,41 @@
             <element>user</element>
             <position>8</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>7ac74f95db623300a9664870399619ff</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>a26189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>phrase_type</element>
+            <position>9</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>266189b4dbb63300a9664870399619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>ignore</element>
-            <position>9</position>
-            <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>fec74f95db623300a9664870399619ff</sys_id>
-            <sys_mod_count>0</sys_mod_count>
-            <sys_ui_formatter/>
-            <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
-            <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
-            <sys_user/>
-            <type/>
-        </sys_ui_element>
-        <sys_ui_element action="INSERT_OR_UPDATE">
-            <element>i_know_count</element>
             <position>10</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>76c78f95db623300a966487039961900</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>a66189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -158,13 +158,13 @@
             <element>.split</element>
             <position>11</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>fac78f95db623300a966487039961900</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>2a6189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.split</type>
         </sys_ui_element>
@@ -172,13 +172,13 @@
             <element>last_notification</element>
             <position>12</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>72c78f95db623300a966487039961901</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>aa6189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
@@ -186,27 +186,41 @@
             <element>last_correct_answer</element>
             <position>13</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>f6c78f95db623300a966487039961901</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>2e6189b4dbb63300a9664870399619f9</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
+            <sys_user/>
+            <type/>
+        </sys_ui_element>
+        <sys_ui_element action="INSERT_OR_UPDATE">
+            <element>i_know_count</element>
+            <position>14</position>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>ae6189b4dbb63300a9664870399619f9</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_ui_formatter/>
+            <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type/>
         </sys_ui_element>
         <sys_ui_element action="INSERT_OR_UPDATE">
             <element>.end_split</element>
-            <position>14</position>
+            <position>15</position>
             <sys_created_by>admin</sys_created_by>
-            <sys_created_on>2019-07-09 09:09:35</sys_created_on>
-            <sys_id>7ec78f95db623300a966487039961901</sys_id>
+            <sys_created_on>2019-07-19 20:21:13</sys_created_on>
+            <sys_id>226189b4dbb63300a9664870399619fa</sys_id>
             <sys_mod_count>0</sys_mod_count>
             <sys_ui_formatter/>
             <sys_ui_section caption="NULL" display_value="" name="x_78983_language_p_phrasebook" sys_domain="global" view="Default view">c012b129db923300a96648703996197d</sys_ui_section>
             <sys_updated_by>admin</sys_updated_by>
-            <sys_updated_on>2019-07-09 09:09:35</sys_updated_on>
+            <sys_updated_on>2019-07-19 20:21:13</sys_updated_on>
             <sys_user/>
             <type>.end_split</type>
         </sys_ui_element>

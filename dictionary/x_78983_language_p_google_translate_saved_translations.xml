@@ -5,5 +5,6 @@
         <element attributes="edge_encryption_enabled=true" label="Target language" max_length="40" name="u_target_language" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Target text" max_length="40" name="u_target_text" type="string"/>
         <element attributes="edge_encryption_enabled=true" label="Target Text (D)" max_length="40" name="u_target_text__d_" type="string"/>
+        <element attributes="edge_encryption_enabled=true" label="Type" max_length="40" name="u_type" type="string"/>
     </element>
 </database>

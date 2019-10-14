@@ -1,0 +1,109 @@
+<?xml version="1.0" encoding="UTF-8"?><record_update table="sysauto_script">
+    <sysauto_script action="INSERT_OR_UPDATE">
+        <active>true</active>
+        <condition/>
+        <conditional>false</conditional>
+        <name>Send phrasebook question</name>
+        <run_as display_value="Adam Domanski">6816f79cc0a8016401c5a33be04be441</run_as>
+        <run_as_tz/>
+        <run_dayofmonth>1</run_dayofmonth>
+        <run_dayofweek>1</run_dayofweek>
+        <run_period>1970-01-01 00:05:00</run_period>
+        <run_start>2019-07-08 15:25:35</run_start>
+        <run_time>1970-01-01 00:00:00</run_time>
+        <run_type>periodically</run_type>
+        <script><![CDATA[var profiles = new GlideRecord("x_78983_language_p_profile");
+profiles.addActiveQuery();
+profiles.query();
+while(profiles.next()) {
+	var secsToWait = 0 - (profiles.mins_between_not * 60);
+	var gdt = new GlideDateTime();
+	gdt.addSeconds(secsToWait);
+	
+	var lastSentGdt = new GlideDateTime();
+	lastSentGdt.setDisplayValueInternal(profiles.last_not_sent+'');
+	
+	if(lastSentGdt.getDisplayValue() == "" || lastSentGdt.before(gdt)) {
+		var pb = new GlideRecord("x_78983_language_p_phrasebook");
+		pb.addQuery("user", profiles.user);
+		pb.addQuery("ignore", false);
+		//pb.addQuery("i_know_count", "<", profiles.i_knows_before_ignore);
+		pb.orderBy("last_notification");
+		pb.query();
+		if(pb.next()) {
+			var existQuGr = new GlideRecord("x_78983_language_p_phrase_test");
+			existQuGr.addQuery("phrase", pb.sys_id+'');
+			existQuGr.addNullQuery("correct");
+			existQuGr.orderBy("phrase.last_notification");
+			existQuGr.query();
+			if(existQuGr.next()) {
+				gs.eventQueue("x_78983_language_p.phrasebook_question", existQuGr);
+			} else {
+				var pbq = new GlideRecord("x_78983_language_p_phrase_test");
+				pbq.addQuery("phrase.user", profiles.user);
+				pbq.addNullQuery("correct");
+				pbq.orderBy("phrase.last_notification");
+				pbq.query();
+				if(pbq.getRowCount() < profiles.max_questions_per_test) {
+					pbq.initialize();
+					pbq.phrase = pb.sys_id+'';
+					pbq.test_phrase = pb.source_text;
+					pbq.multi_choice_options = getMultiChoiceOptions(pb.target_text, pb.target_language, pb.phrase_type);
+					pbq.correct_answer = pb.target_text;
+					pbq.insert();
+					gs.eventQueue("x_78983_language_p.phrasebook_question", pbq);
+				} else {
+					while(pbq.next())
+						if(pbq.phrase == pb.sys_id+'')
+							gs.eventQueue("x_78983_language_p.phrasebook_question", pbq);
+				}
+			}
+			pb.last_notification = new GlideDateTime().getDisplayValue();
+			pb.update();
+		}
+	}
+}
+
+function getMultiChoiceOptions(correctAnswer, targetLang, phraseType) {
+	
+	var answersArray = [ '<input type="radio" name="gender" value="' + correctAnswer + '" />' + correctAnswer + '<br/>' ];
+	var newAnswersList = [];
+	
+	for (var i=0; i<3; i++) {
+		var pbSearch = new GlideRecord("x_78983_language_p_phrasebook");
+		pbSearch.addQuery("target_language", targetLang);
+		pbSearch.addQuery("phrase_type", phraseType);
+		pbSearch.addQuery("target_text", "!=", correctAnswer);
+		pbSearch.addQuery("target_text", "NOT IN", newAnswersList);
+		pbSearch.query();
+		
+		var min = 0, max = pbSearch.getRowCount();
+		var rand = Math.random() * (max - min) + min;
+		
+		for(var randKey = 0; randKey < rand; randKey++)
+			pbSearch.next();
+		
+		answersArray.push('<input type="radio" name="gender" value="' + pbSearch.target_text + '" />' + pbSearch.target_text + '<br/>');
+		newAnswersList.push(pbSearch.target_text);
+		
+	}
+	
+	var sortedArray = answersArray.sort();
+	gs.info("Array: " + sortedArray);
+	return sortedArray.join("\n");
+}]]></script>
+        <sys_class_name>sysauto_script</sys_class_name>
+        <sys_created_by>admin</sys_created_by>
+        <sys_created_on>2019-07-18 15:42:21</sys_created_on>
+        <sys_id>b3f7fe9cdbbe3300a966487039961977</sys_id>
+        <sys_mod_count>15</sys_mod_count>
+        <sys_name>Send phrasebook question</sys_name>
+        <sys_package display_value="Language Phrasebook" source="x_78983_language_p">644fe565db923300a966487039961914</sys_package>
+        <sys_policy/>
+        <sys_scope display_value="Language Phrasebook">644fe565db923300a966487039961914</sys_scope>
+        <sys_update_name>sysauto_script_b3f7fe9cdbbe3300a966487039961977</sys_update_name>
+        <sys_updated_by>admin</sys_updated_by>
+        <sys_updated_on>2019-09-03 14:47:13</sys_updated_on>
+        <upgrade_safe>false</upgrade_safe>
+    </sysauto_script>
+</record_update>
